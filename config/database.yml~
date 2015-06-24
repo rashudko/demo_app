@@ -8,7 +8,7 @@ default: &default
 development:
   <<: *default
 
-  database: demo
+  database: brain-portal
   pool: 5
   username: postgres
   password: postgres
